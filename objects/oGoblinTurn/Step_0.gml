@@ -1,7 +1,7 @@
 ///@description moving through bar
 
 //if there is no active turn: move
-if(TurnActive == true)
+if(activeBattleState == battleState.active)
 {
 	hspeed = 0;
 }
@@ -13,16 +13,28 @@ else
 //if end of bar, set active turn
 if(x >= 1190)
 {
-	TurnActive = true;
-	with(oGoblin)
+	activeBattleState = battleState.active;
+	with(GoblinControled)
 	{
 		event_user(0);
-		if(!oGoblin.IsActive)
-		{
-			oGoblinTurn.x = oGoblinTurn.xstart;
-		}
-
 	}
+	if(!GoblinControled.IsActive)
+	{
+		other.x = other.xstart;
+	}
+
+	
 	
 	hspeed = 0;
+}
+
+//destroy when dead
+
+with(GoblinControled)
+{
+	if(Health <= 0)
+	{
+		instance_destroy();
+		instance_destroy(other);
+	}
 }

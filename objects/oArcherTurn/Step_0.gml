@@ -14,7 +14,7 @@ else
 if(x >= 1190)
 {
 	activeBattleState = battleState.active;
-	oWarrior.IsActive = true;
-	ActiveHero = instance_find(oWarrior, 0);
+	oArcher.IsActive = true;
+	ActiveHero = instance_find(oArcher, 0);
 	hspeed = 0;
 }

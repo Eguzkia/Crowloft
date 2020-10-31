@@ -1,2 +1,4 @@
 //Set initial values
 Life = 30;
+Weapon = instance_create_layer(x,y,layer,oStaff);
+HeroTurn = instance_find(oMageTurn, 0);

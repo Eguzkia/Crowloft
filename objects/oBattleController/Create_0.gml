@@ -1,4 +1,12 @@
 ///@description set initial values
 
-globalvar TurnActive;
-TurnActive = false;
+enum battleState {
+	idle,
+	active,
+	selectingTarget,
+}
+
+globalvar activeBattleState;
+activeBattleState = battleState.idle;
+
+globalvar ActiveHero;

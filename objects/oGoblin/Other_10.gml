@@ -12,6 +12,5 @@ if(!IsActive)
 if(!audio_is_playing(sound_Damage))
 {
 	IsActive = false;
-	TurnActive = false;
-	IsActive = false;
+	activeBattleState = battleState.idle;
 }
