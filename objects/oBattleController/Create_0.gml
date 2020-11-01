@@ -3,10 +3,16 @@
 enum battleState {
 	idle,
 	active,
-	selectingTarget,
+	monsterActive,
+	selectingAttackTarget,
+	selectingSkill1Target,
+	selectingSkill2Target
 }
 
 globalvar activeBattleState;
 activeBattleState = battleState.idle;
 
 globalvar ActiveHero;
+
+globalvar coolDowned;
+coolDowned = false;

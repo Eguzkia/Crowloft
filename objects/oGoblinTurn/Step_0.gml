@@ -1,7 +1,7 @@
 ///@description moving through bar
 
 //if there is no active turn: move
-if(activeBattleState == battleState.active)
+if(activeBattleState != battleState.idle)
 {
 	hspeed = 0;
 }
@@ -13,7 +13,7 @@ else
 //if end of bar, set active turn
 if(x >= 1190)
 {
-	activeBattleState = battleState.active;
+	activeBattleState = battleState.monsterActive;
 	with(GoblinControled)
 	{
 		event_user(0);
