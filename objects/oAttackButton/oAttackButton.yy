@@ -26,6 +26,8 @@
     {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"parent":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":51,"eventType":6,"collisionObjectId":null,"parent":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":50,"eventType":6,"collisionObjectId":null,"parent":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"parent":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"parent":{"name":"oAttackButton","path":"objects/oAttackButton/oAttackButton.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

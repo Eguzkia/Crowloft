@@ -28,8 +28,9 @@
     {"propertyId":{"name":"CurrentCoolDown","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"0","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"CoolDown","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"SkillName","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"Small Heal","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"Description","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"Heal 50% weapon power hp to an ally","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Description","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"Heal 70% weapon power hp to an ally","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"IsFriendly","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"ReloadSpeed","path":"objects/oSkill/oSkill.yy",},"objectId":{"name":"oSkill","path":"objects/oSkill/oSkill.yy",},"value":"11","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Skills",

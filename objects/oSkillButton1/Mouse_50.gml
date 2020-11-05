@@ -6,11 +6,11 @@ if(activeBattleState == battleState.selectingSkill1Target)
 	//check if skill targets enemies or allies
 	if(ActiveHero.Skill1.IsFriendly)
 	{	
-		target = instance_place(mouse_x, mouse_y, oHero);
+		target = instance_position(mouse_x, mouse_y, oHero);
 	}
 	else
 	{
-		target = instance_place(mouse_x, mouse_y, oMonster);
+		target = instance_position(mouse_x, mouse_y, oMonster);
 	}
 	
 	//if valid target, execute skill
@@ -22,7 +22,7 @@ if(activeBattleState == battleState.selectingSkill1Target)
 		
 		//reset turn object
 		ActiveHero.HeroTurn.x = ActiveHero.HeroTurn.xstart;
-		ActiveHero.HeroTurn.TurnSpeed = random_range(5,10);
+		ActiveHero.HeroTurn.TurnSpeed = ActiveHero.Skill1.ReloadSpeed;
 		activeBattleState = battleState.idle;
 	}
 }

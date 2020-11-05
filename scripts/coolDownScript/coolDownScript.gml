@@ -3,6 +3,8 @@
 function coolDown(){
 	if(ActiveHero.Skill1.CurrentCoolDown > 0)
 		ActiveHero.Skill1.CurrentCoolDown -= 1;
+	if(ActiveHero.Skill2.CurrentCoolDown > 0)
+		ActiveHero.Skill2.CurrentCoolDown -= 1;
 		
 	coolDowned = true;
 }

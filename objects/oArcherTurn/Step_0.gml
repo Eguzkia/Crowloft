@@ -18,4 +18,4 @@ if(x >= 1190 && activeBattleState == battleState.idle)
 	ActiveHero = instance_find(oArcher, 0);
 	coolDown();
 	hspeed = 0;
-}
+} 
