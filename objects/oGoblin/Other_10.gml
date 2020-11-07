@@ -3,9 +3,22 @@
 //choose random objective
 if(!IsActive)
 {
-	var randomObjective = instance_find(oHero, irandom(instance_number(oHero) - 1));
+	enemyTarget();
 
-	randomObjective.Life -= Attack;
+	if(EnemyTarget.Shield > 0)
+	{
+		EnemyTarget.Shield -= Attack;
+		if(EnemyTarget.Shield < 0)
+		{
+			EnemyTarget.Life += EnemyTarget.Shield;
+			EnemyTarget.Shield = 0;
+		}
+	}
+	else
+	{
+			EnemyTarget.Life -= Attack;
+	}
+
 	audio_play_sound(sound_Damage, 1, false);
 	IsActive = true;
 }

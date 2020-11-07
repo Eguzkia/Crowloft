@@ -26,12 +26,14 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oWarrior","path":"objects/oWarrior/oWarrior.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"oWarrior","path":"objects/oWarrior/oWarrior.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"oWarrior","path":"objects/oWarrior/oWarrior.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"Life","path":"objects/oHero/oHero.yy",},"objectId":{"name":"oHero","path":"objects/oHero/oHero.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Life","path":"objects/oHero/oHero.yy",},"objectId":{"name":"oHero","path":"objects/oHero/oHero.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"Weapon","path":"objects/oHero/oHero.yy",},"objectId":{"name":"oHero","path":"objects/oHero/oHero.yy",},"value":"oSword","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"Name","path":"objects/oHero/oHero.yy",},"objectId":{"name":"oHero","path":"objects/oHero/oHero.yy",},"value":"Warrior","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"Presence","path":"objects/oHero/oHero.yy",},"objectId":{"name":"oHero","path":"objects/oHero/oHero.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Heroes",

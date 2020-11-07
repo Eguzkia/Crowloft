@@ -6,7 +6,9 @@ enum battleState {
 	monsterActive,
 	selectingAttackTarget,
 	selectingSkill1Target,
-	selectingSkill2Target
+	selectingSkill2Target,
+	win,
+	lose
 }
 
 globalvar activeBattleState;
@@ -16,3 +18,5 @@ globalvar ActiveHero;
 
 globalvar coolDowned;
 coolDowned = false;
+
+globalvar EnemyTarget;
